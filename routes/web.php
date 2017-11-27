@@ -45,3 +45,4 @@ Route::group(['prefix' => 'student'],function(){
 Route::group(['namespace' => 'Cool'],function (){
       Route::get('cool', 'TestController@index');
   });
+Route::get('/board','BoardController@getIndex');
